@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="Profile.Css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome Admin</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="Home.HTML">Home</a></li>
+                <li><a href="Users.HTML">Users</a></li>
+                <li><a href="Vendors.HTML">Vendors</a></li>
+                <li><a href="Profile.HTML">Profile</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="profile">
+                <h2>Profile</h2>
+                <div class="profile-details">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" value="Admin">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" value="admin@example.com">
+                    </div>
+                    <div class="actions">
+                        <button class="update-btn">Update</button>
+                        <button class="logout-btn">Log out</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
